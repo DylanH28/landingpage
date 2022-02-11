@@ -160,3 +160,7 @@ button {
     justify-content: center;
     align-content: center;
 }
+
+.buttontwo {
+    border: 2px solid white;
+}
