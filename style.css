@@ -1,0 +1,162 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #1F2937;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    gap: 32px;
+}
+
+.placeholder {
+    width: 400px;
+    height: 190px;
+    background-color: #E5E7EB;
+    opacity: 0.5;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maintext {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 340px;
+}
+
+.containertwo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.infotitle {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.placeholdertwo {
+    display: flex;
+    flex-shrink: 0;
+    height: 160px;
+    width: 160px;
+    border: 3px solid;
+    border-radius: 6px;
+    border-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    width: 160px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 6px;
+    width: 80px;
+    font-weight: bold;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.quotetext {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 720px;
+}
+
+.author {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 24px;
+    margin: 40px;
+    border-radius: 6px;
+    gap: 16px;
+}
+
+.call {
+    font-weight: bold;
+}
+
+.signup {
+    font-size: 12px;
+}
+
+.copyright {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 16px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
